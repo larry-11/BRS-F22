@@ -1,15 +1,9 @@
 import java.util.TimerTask;
-import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
-import java.net.SocketException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.Scanner;
-/**
- * 
- * @author Dhinakaran P.
- */
+
 // Create a class extends with TimerTask
 public class ScheduledTask extends TimerTask {
 
@@ -19,7 +13,6 @@ public class ScheduledTask extends TimerTask {
         this.client = client;
     }
 
-	// Add your task here
 	public void run() {
 		try {
 			now = new Date(); // initialize date

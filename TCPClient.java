@@ -7,8 +7,6 @@ import java.util.Date;
 import java.util.Scanner;
 
 public class TCPClient {
-
-
     private static Socket socketClient;
     public static void main(String[] args) {
         TCPClient TCPClient = new TCPClient();
